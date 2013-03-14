@@ -13,4 +13,4 @@ curl https://s3.amazonaws.com/clearideas-public/gm.tar.gz -s -O
 mkdir -p vendor/gm
 
 # untar the binary to the directory we want
-tar -C vendor/gm -xvf GraphicsMagick-1.3.tgz
+tar -C vendor/gm -xvf gm.tar.gz
